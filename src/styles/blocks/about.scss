@@ -1,98 +1,6 @@
-.about {
-    color: $colorGray;
-    position: relative;
-    
-
-    &::after {
-        content: "";
-        background-image: url('./pictures/leaf3.png');
-        background-repeat: no-repeat;
-        display: block;
-        width: 59px;
-        height: 112px;
-        position: absolute;
-        z-index: 5;
-        left: 5%;
-        bottom: -10%;
-
-        @include tablets {
-            width: 75px;
-            height: 120px;
-        }
-    }
-
-    
-    &::before {
-        content: "";
-        background-image: url('./pictures/leaf2.png');
-        background-repeat: no-repeat;
-        display: block;
-        width: 141px;
-        height: 105px;
-        position: absolute;
-        z-index: 5;
-        right: 5%;
-        bottom: -4%;
-
-        @include tablets {
-            width: 150px;
-            height: 120px;
-        }
-    }
-
-    @include tablets {
-        height: 100%;
-    }
-
-
-}
-
-.about__container {
-        
-    &::before {
-        content: "";
-        background-image: url('./pictures/leaf4.png');
-        background-repeat: no-repeat;
-        display: block;
-        width: 191px;
-        height: 314px;
-        position: absolute;
-        z-index: 20;
-        left: -3%;
-        bottom: 40%;
-    }
-
-
-    &::after {
-        content: "";
-        background-image: url('./pictures/berry3.png');
-        background-repeat: no-repeat;
-        display: block;
-        width: 161px;
-        height: 315px;
-        position: absolute;
-        z-index: 20;
-        left: -3%;
-        bottom: -16%;
-
-        @include tablets {
-            width: 180px;
-            height: 400px;
-        }
-    }
-}
-
-.about__desc {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .about__title {
-    color: $colorBlack;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 70px;
 
     @include tablets {
         margin: 0;
@@ -101,10 +9,11 @@
 
 .about__text {
     text-align: center;
+    width: 70%;
 }
 
 .about__text-title {
-    font-size: 27px;
+    font-size: 16px;
     font-weight: 700;
 
     @include tablets {
@@ -128,6 +37,7 @@
 .about__list {
     display: flex; 
     justify-content: space-around;
+    flex-wrap: wrap;
 
     @include tablets {
        flex-direction: column;
@@ -142,47 +52,15 @@
     justify-items: center;
     align-items: center;
     width: 30%;
-    position: relative;
-
-    &:nth-child(2) {
-        
-        &::before, &::after {
-            content: "";
-            background-image: url('./pictures/dot.png');
-            background-repeat: no-repeat;
-            display: block;
-            width: 67px;
-            height: 21px;
-            position: absolute;
-            z-index: 10;
-            top: 15%;
-
-            @include tablets {
-                display: none;
-            }
-        }
-
-        &::before {
-            left: -18%;
-        }
-
-        &::after {
-            right: -18%;
-        }
-
-    }
-
-    @include tablets {
-        width: 50%;
-    }
+    margin-bottom: 30px;
 }
 
 
 
 .about__icon {
     border-radius: 50%;
-    width: 125px;    
-    height: 125px;
+    width: 100px;
+    height: 100px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -198,15 +76,15 @@
 
 .about__pic {
     display: block;
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: auto;
     fill: #2a2a29; 
     opacity: 0.8;
 
 }
 
 .about__p {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 300;
 
     @include tablets {

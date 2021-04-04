@@ -19,13 +19,11 @@ body {
   margin: 0;
   padding: 0;
   font-weight: normal;
-  color: $colorWhite;
   font-family: 'Roboto', Arial, sans-serif;
   line-height: 1.42;
-  font-size: 16;
+  color: black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  position: relative;
 }
 
 .wrapper {
@@ -35,14 +33,6 @@ body {
   //min-height: 100%;
   overflow: hidden;
 }
-
-.maincontent {
-  height: 100%;
-  transition: transform 1s;
-  position: relative;
- // transform: translateY();
-}
-
 
 * {
   box-sizing: border-box;

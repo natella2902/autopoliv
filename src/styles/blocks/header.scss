@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
+    margin-bottom: 80px;
 
     @include tablets {
         margin-bottom: 0;
@@ -13,22 +14,12 @@
 .header__contacts {
     font-size: 24px;
     font-weight: 400;
-
-   
 }
 
 
 .contacts__phone {
 
     white-space: nowrap;
-    
-    &::before {
-        content:  "";
-        width: 15px;
-        height: 15px;
-        display: inline-block;
-        background: url('./pictures/phone.png') center no-repeat;
-    }
 
     @include tablets {
         display: none;

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <link rel="icon" type="image/x-icon" href="./pic/favicon.png">
     <link rel="stylesheet" href="main.min.css">
 </head>
 <body>
@@ -16,13 +16,13 @@
                     <nav class="nav">
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="#" class="nav__link" data-scroll-to="1">Услуги</a>
+                                <a href="#service" class="nav__link" >Услуги</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link" data-scroll-to="2">О нас</a>
+                                <a href="#team" class="nav__link">О нас</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link" data-scroll-to="3">Портфолио</a>
+                                <a href="#portfolio" class="nav__link" >Портфолио</a>
                             </li>
                         </ul>
                     </nav>
@@ -37,13 +37,13 @@
                     <nav class="nav">
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="#" class="nav__link" data-scroll-to="4">Цены</a>
+                                <a href="#" class="nav__link">Ландшафтный проект</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link" data-scroll-to="5">Как мы работаем</a>
+                                <a href="#work" class="nav__link">Как мы работаем</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link" data-scroll-to="6">Контакты</a>
+                                <a href="#footer" class="nav__link" >Контакты</a>
                             </li>
                         </ul>
                     </nav>
@@ -58,15 +58,14 @@
                     <p class="hero__text">
                         озеленение и обслуживание участков
                     </p>
-                    <a href="#" class="btn hero__btn">Купить полив</a>
+                    <a href="#footer" class="btn hero__btn">Купить полив</a>
                 </div>
             </div>
         </section>
-        <section class="section about">
+        <section class="section about" id="service">
             <div class="container about__container">
-                <div class="about__desc">
-                    <h2 class="title about__title"> почему chocco?</h2>
-                    <p class="about__desc-text"> В нашем мире все происходит быстро, поэтому мы <br> делаем батончики, которые удобно взять с собой.</p>
+                <div class="title__desc">
+                    <h2 class="title about__title"> Услуги </h2>
                 </div>
                 <ul class="about__list">
                     <li class="about__item">
@@ -76,37 +75,203 @@
                             </svg>
                         </div>
                         <div class="about__text">
-                            <h3 class="about__text-title">Полезно</h3>
-                            <p class="about__p">Натуральность ключевое качество нашей продукции. Мы используем только природные ингридиенты.</p>
+                            <h3 class="about__text-title">Системы автоматического полива</h3>
+                            <p class="about__p">Зеленый газон, цветущие клумбы</p>
                         </div>
                     </li>
                     <li class="about__item">
                         <div class="about__icon">
-                            <svg class="about__pic" viewbox="0 0 70 69" height="70" width="69">
+                            <svg class="about__pic" viewbox="0 0 66 69" height="66" width="69">
+                                <use href = "./images/icons/sprite.svg#2"> </use>
+                            </svg>
+                        </div>
+                        <div class="about__text">
+                            <h3 class="about__text-title">Комплексный уход за растениями</h3>
+                            <p class="about__p">Подкормка, прополка, формовка</p>
+                        </div>
+                    </li>
+                    <li class="about__item">
+                        <div class="about__icon">
+                            <svg class="about__pic" viewbox="0 0 66 69" height="66" width="69">
                                 <use href = "./images/icons/sprite.svg#3"> </use>
                             </svg>
                         </div>
                         <div class="about__text">
-                            <h3 class="about__text-title">Вкусно</h3>
-                            <p class="about__p"> Нежный, ненавязчивый, изысканный - так клиенты описывают вкусовые качества наших батончиков.</p>
+                            <h3 class="about__text-title">Ландшафтный дизайн</h3>
+                            <p class="about__p">Приятные цены и индивидуальный подход</p>
                         </div>
-
                     </li>
                     <li class="about__item">
                         <div class="about__icon">
-                            <svg class="about__pic" viewbox="0 0 75 64" height="75" width="64">
-                                <use href = "./images/icons/sprite.svg#2"> </use>
+                            <svg class="about__pic" viewbox="0 0 66 69" height="66" width="69">
+                                <use href = "./images/icons/sprite.svg#4"> </use>
                             </svg>
-
                         </div>
                         <div class="about__text">
-                            <h3 class="about__text-title">Питательно</h3>
-                            <p class="about__p">Высокое содержание качественного белка, а так же всех необходимых витаминов и минералов</p>
+                            <h3 class="about__text-title">Обработка растений</h3>
+                            <p class="about__p">Стрижка газона / обрезка растений</p>
+                        </div>
+                    </li>
+                    <li class="about__item">
+                        <div class="about__icon">
+                            <svg class="about__pic" viewbox="0 0 66 69" height="66" width="69">
+                                <use href = "./images/icons/sprite.svg#5"> </use>
+                            </svg>
+                        </div>
+                        <div class="about__text">
+                            <h3 class="about__text-title">Участки любого размера и рельефа</h3>
+                            <p class="about__p">От 0,5 соток и больше</p>
+                        </div>
+                    </li>
+                    <li class="about__item">
+                        <div class="about__icon">
+                            <svg class="about__pic" viewbox="0 0 66 69" height="66" width="69">
+                                <use href = "./images/icons/sprite.svg#6"> </use>
+                            </svg>
+                        </div>
+                        <div class="about__text">
+                            <h3 class="about__text-title">Газон под ключ</h3>
+                            <p class="about__p">Рулонный газон с доставкой и укладкой</p>
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
+        <section class="section team" id="team">
+            <div class="container team__container">
+                <div class="title__desc">
+                    <h2 class="title team__title"> О нас </h2>
+                </div>
+                <div class="team__desc">
+                    <div class="team__img">
+                        <img src="./pic/team.jpg" alt="" class="team__pic">
+                    </div>
+                    <div class="team__text">
+                        Я — руководитель компании. <br>
+                        Компании, которая любит свое дело и окружающий нас мир. <br>
+                        Ответственно подходим к работе, знаем все нюансы, создаем и поддерживаем комфорт наших клиентов.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section portfolio" id="portfolio">
+            <div class="container portfolio__container">
+                <div class="title__desc">
+                    <h2 class="title portfolio__title"> Портфолио </h2>
+                </div>
+                <div class="portfolio__photo">
+                    <div class="portfolio__photo1">
+                        <img src="./pic/1.jpg" alt="картинка газона" class="portfolio__pic">
+                    </div>
+                    <div class="portfolio__photo2">
+                        <img src="./pic/2.jpg" alt="картинка газона" class="portfolio__pic">
+                    </div>
+                    <div class="portfolio__photo3">
+                        <img src="./pic/3.jpg" alt="картинка газона" class="portfolio__pic">
+                    </div>
+                    <div class="portfolio__photo4">
+                        <img src="./pic/4.jpg" alt="картинка газона" class="portfolio__pic">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section work" id="work">
+            <div class="container work__container">
+                <div class="title__desc">
+                    <h2 class="title work__title"> Как мы работаем </h2>
+                </div>
+                <ul class="work__list">
+                    <li class="work__item">
+                        <div class="work__img">
+                            <svg class="work__pic" viewbox="0 0 66 69" height="66" width="69">
+                                <use href = "./images/icons/sprite.svg#7"> </use>
+                            </svg>
+                        </div>
+                        <div class="work__desc">
+                            <div class="work__subtitle">
+                                Планировка и расчет стоимости автополива
+                            </div>
+                            <div class="work__text">
+                                Для оптимальной разработки предложения требуются следующие данные:
+                                <br>• Габаритные размеры участка с информацией, что именно поливаем.
+                                <br>• Месторасположение водоисточника, его давление/расход.
+                                <br>• Ваши пожелания.
+                                <br>
+                                По согласованию наш специалист приедет к вам на участок для совершения необходимых замеров, консультации и уточнения ваших пожеланий.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="work__item">
+                        <div class="work__img">
+                            <svg class="work__pic" viewbox="0 0 66 69" height="66" width="69">
+                                <use href = "./images/icons/sprite.svg#8"> </use>
+                            </svg>
+                        </div>
+                        <div class="work__desc">
+                            <div class="work__subtitle">
+                                Доставка оборудования и монтажные работы
+                            </div>
+                            <div class="work__text">
+                                Перечень работ оговаривается и указывается в договоре/соглашении
+                            </div>
+                        </div>
+                    </li>
+                    <li class="work__item">
+                        <div class="work__img">
+                            <svg class="work__pic" viewbox="0 0 66 69" height="66" width="69">
+                                <use href = "./images/icons/sprite.svg#9"> </use>
+                            </svg>
+                        </div>
+                        <div class="work__desc">
+                            <div class="work__subtitle">
+                                Пуско-наладочные работы
+                            </div>
+                            <div class="work__text">
+                                По окончанию монтажных работ проводится запуск и проверка смонтированной системы автоматического полива
+                            </div>
+                        </div>
+                    </li>
+                    <li class="work__item">
+                        <div class="work__img">
+                            <svg class="work__pic" viewbox="0 0 66 69" height="66" width="69">
+                                <use href = "./images/icons/sprite.svg#2"> </use>
+                            </svg>
+                        </div>
+                        <div class="work__desc">
+                            <div class="work__subtitle">
+                                Сервисное обслуживание
+                            </div>
+                            <div class="work__text">
+                                Сезонное обслуживание заключается в консервации системы автоматического полива на зимний период и расконсервации весной.
+                                <br>Перед зимним периодом систему необходимо продувать сжатым воздухом и выгнать всю воду.
+                                <br>Наши специалисты квалифицированно проведут необходимые работы.
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer" id="footer">
+            <div class="container footer__container">
+                <div class="locality">
+                    Ялта,
+                    Крым
+                </div>
+                <div class="contacts">
+                    <a href="tel:+79788580300">
+                        +7 (978) 858-03-00
+                    </a>
+                    <a href="mailto:autopolivgazon@yandex.ru" class="href">
+                        autopolivgazon@yandex.ru
+                    </a>
+                </div>
+            </div>
+            <div class="black__ribbon">
+                <div class="container black__ribbon__container">
+                    <span class="creator">сreated by ZhelonkinA </span>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
