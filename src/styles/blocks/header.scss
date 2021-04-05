@@ -7,22 +7,25 @@
 
     @include tablets {
         margin-bottom: 0;
+        display: none;
     }
  
 }
 
 .header__contacts {
+    display: block;
+    width: 40%;
     font-size: 24px;
     font-weight: 400;
 }
 
 
 .contacts__phone {
-
     white-space: nowrap;
+    font-size: 30px;
 
     @include tablets {
-        display: none;
+        font-size: 20px;
     }
 }
 

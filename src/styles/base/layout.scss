@@ -83,10 +83,13 @@ table {
     text-transform: uppercase;
     text-align: center;
     color: inherit;
+
+  @include phones {
+    font-size: 30px;
+  }
 } 
 
 .section {
-  
   height: 100vh;
   display: flex;
  // height: 100vh;
@@ -101,21 +104,18 @@ table {
 }
 
 .container {
-/*  max-width: 940px; */
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: center;
   position: relative;
-  //border: 1px solid green;
 
     @include tablets {
       height: initial;
+      width: 90%;
     }
-
-  
 }
 
 

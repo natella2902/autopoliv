@@ -3,6 +3,10 @@
 
   &__title {
     margin-bottom: 70px;
+
+    @include phones {
+      margin-bottom: 40px;
+    }
   }
 
   &__container {
@@ -20,6 +24,11 @@
   &__img {
     width: 620px;
     height: 400px;
+
+    @include phones {
+      width: 100%;
+      height: auto;
+    }
   }
 
   &__pic {
