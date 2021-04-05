@@ -2,9 +2,10 @@
   background-color: #f0f0f0;
 
   &__title {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 
     @include phones {
+      margin-top: 0;
       margin-bottom: 40px;
     }
   }
