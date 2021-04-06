@@ -17,7 +17,7 @@
     font-weight: 700;
 
     @include phones {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -27,7 +27,7 @@
     margin-bottom: 60px;
 
     @include phones {
-        font-size: 12px
+        font-size: 16px
     }
     
 }
@@ -111,7 +111,7 @@
 }
 
 .about__p {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
 
     @include tablets {
